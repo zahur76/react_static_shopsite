@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.NavBar {
+    background: yellow;    
+}
+
+.heading {
+    margin: 0;
+}
