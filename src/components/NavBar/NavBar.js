@@ -9,8 +9,10 @@ class NavBar extends React.Component {
     render(){
         return (
             <div className='NavBar'>
-                <Row>
-                    <Col><h1 className='heading'>Shop All Day</h1></Col>
+                <Row className='row'>
+                    <Col xs='0' md='3'></Col>
+                    <Col xs='9' md='6'><a href="#" className='heading'>Shop All Day</a></Col>
+                    <Col xs='3' md='3'>Contact Us</Col>
                 </Row>
             </div>
         )

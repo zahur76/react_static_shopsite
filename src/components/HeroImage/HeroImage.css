@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: none !important;
+}
+
+.HeroImage {
+    padding: 0;
+}
+
+img { 
+     
+    width: 100%;
+}
