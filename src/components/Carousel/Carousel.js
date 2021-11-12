@@ -1,9 +1,12 @@
-import image from './dolphin.jpg'
+import image from './hoodie.jpg'
+import dress from './dress.jpg'
+import jacket from './jacket.jpg'
 import React from 'react';
 import './Carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 
 class CarouselDeals extends React.Component {
     render(){
@@ -20,27 +23,27 @@ class CarouselDeals extends React.Component {
                                 alt="First slide"
                                 />
                                 <Carousel.Caption>
-                                <h3>First slide label</h3>                    
+                                <h3>Red Hoodie</h3>                    
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={500}>
                                 <img
                                 className="d-block"
-                                src={image}
+                                src={dress}
                                 alt="Second slide"
                                 />
                                 <Carousel.Caption>
-                                <h3>Second slide label</h3>                    
+                                <h3>Summer Dress</h3>                    
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className="d-block"
-                                src={image}
+                                src={jacket}
                                 alt="Third slide"
                                 />
                                 <Carousel.Caption>
-                                <h3>Third slide label</h3>                    
+                                <h3>Raincoat</h3>                    
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>

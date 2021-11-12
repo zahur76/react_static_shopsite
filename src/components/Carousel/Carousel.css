@@ -6,24 +6,33 @@
 
 .carousel-container {
     padding-top: 10px;
-    justify-content: center;
-    background: rgb(200, 201, 161);
+    justify-content: center;       
+}
+
+.carousel {
+    box-shadow: 5px 5px 5px 5px rgb(187, 186, 186);   
 }
 
 .offer-header {
     font-family: 'Lobster', cursive;
-    border-bottom: 2px solid black;
-    background: rgb(200, 201, 161);
+    border-bottom: 2px solid black;    
     margin: 0;    
 }
 
 img {
     width: 100%;       
     margin: 0 auto;
+    background: rgb(163, 157, 157);
 }
 
 .carousel-caption h3 {
     font-size: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 2px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
 }
 
 /* media-screen */
