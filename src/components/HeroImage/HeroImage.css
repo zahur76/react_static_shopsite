@@ -11,3 +11,11 @@ html, body {
 img {      
     width: 100%;
 }
+
+.confetti {
+    background: rgba(24, 24, 24, 0.0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}

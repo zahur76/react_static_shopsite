@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-    $(".navbar-toggler-icon").click(function(){
-        $(".navbar-toggler-icon ").removeAttr('background-image')
-    })
+    $('.confetti').fadeOut(5000);
 
 });

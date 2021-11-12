@@ -10,7 +10,8 @@ class HeroImage extends React.Component {
         return (
             <Row>
                 <Col className='HeroImage'> 
-                    <img src={image}/>               
+                    <img src={image}/>
+                    <img className="confetti" src='https://i.gifer.com/2ii9.gif'/>           
                 </Col>
             </Row>
         )
