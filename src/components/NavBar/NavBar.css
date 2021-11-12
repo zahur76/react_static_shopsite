@@ -44,7 +44,16 @@ span.navbar-toggler-icon {
 }
 
 .navbar-dark .navbar-toggler-icon {
+    transition: 0.4s;
     background-image: url('../../burger.png');
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    margin: 0 auto;
+    transition: 0.4s;
+    width: 30px;
+    height: 30px;      
+    background-image: url('../../cross.png');
 }
 
 button:focus:not(:focus-visible) {
