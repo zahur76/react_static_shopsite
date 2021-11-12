@@ -1,12 +1,9 @@
 import React from 'react';
 import './NavBar.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/esm/Navbar';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Nav from 'react-bootstrap/esm/Nav'
-import { NavDropdown } from 'react-bootstrap';
+
 class NavBar extends React.Component {
     render(){
         return (

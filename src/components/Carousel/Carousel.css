@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+/* .carousel {   
+    background: rgba(236, 235, 235, 0.5);
+} */
+
+.carousel-container {
+    padding-top: 10px;
+    justify-content: center;
+    background: rgb(200, 201, 161);
+}
+
+.offer-header {
+    font-family: 'Lobster', cursive;
+    border-bottom: 2px solid black;
+    background: rgb(200, 201, 161);
+    margin: 0;    
+}
+
+img {
+    width: 100%;       
+    margin: 0 auto;
+}
+
+.carousel-caption h3 {
+    font-size: 20px;
+}
+
+/* media-screen */
+@media screen and (max-width: 992px){
+    .carousel-caption h3 {
+        font-size: 20px;
+    }   
+    
+}
+@media screen and (max-width: 560px){
+    .carousel-caption h3 {
+        font-size: 16px;
+    }       
+}
+
