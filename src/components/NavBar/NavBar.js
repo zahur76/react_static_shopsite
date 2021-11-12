@@ -17,6 +17,7 @@ class NavBar extends React.Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
                         <Nav>
+                        <Nav.Link className="links" href="#deets">Home</Nav.Link>
                             <Nav.Link className="links" href="#deets">Contact Us</Nav.Link>
                             <Nav.Link className="links" eventKey={2} href="#memes">
                                 Links
