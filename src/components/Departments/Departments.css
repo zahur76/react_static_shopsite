@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+.Departments img{
+    width: 220px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(187, 186, 186);
+    position: relative;
+    z-index: 999;  
+}
+
+.Departments img:hover {    
+    -webkit-transform: scale(0.98); /* Safari 3-8 */
+    transform: scale(0.98); 
+  }
+
+.category-header {
+    font-family: 'Lobster', cursive;
+    margin-top: 20px !important;
+    border-bottom: 2px solid black;
+    margin: 0 20px 0 20px;  
+}
