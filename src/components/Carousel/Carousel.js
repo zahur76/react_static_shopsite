@@ -10,7 +10,7 @@ class CarouselDeals extends React.Component {
     renderOffers(){
         return Object.keys(offers).map(offer => {
           let offerValue = offers[offer];
-          return <Carousel.Item interval={2000}>
+          return <Carousel.Item interval={4000}>
                     <img className="carousel-image" src={offerValue.image} alt="First slide"/>
                         <Carousel.Caption>
                                     <h3>
@@ -24,10 +24,20 @@ class CarouselDeals extends React.Component {
     render(){
         return (
             <div className="carousel-container">
-                <h1 className="offer-header">Offers</h1>                
-                <Carousel className="carousel">                
-                    {this.renderOffers()}
-                </Carousel>                  
+                <h1 className="offer-header">Offers</h1>
+                <Row>
+                    <Col md={6}>               
+                        <div className="sales">
+                            <p className="sales-text">Sales</p>
+                            <div className="sales-overlay"></div>
+                        </div>                        
+                    </Col>
+                    <Col md={6}>               
+                        <Carousel className="carousel">                
+                            {this.renderOffers()}
+                        </Carousel>
+                    </Col>                    
+                </Row>                  
             </div>
         )
     }
