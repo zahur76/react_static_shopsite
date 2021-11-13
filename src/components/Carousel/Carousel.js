@@ -28,7 +28,7 @@ class CarouselDeals extends React.Component {
                 <Row>
                     <Col md={6}>               
                         <div className="sales">
-                            <p className="sales-text">Sales</p>
+                            <p className="sales-text">Upto 50% Discount!</p>
                             <div className="sales-overlay"></div>
                         </div>                        
                     </Col>
