@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react_static_shopsite/static/css/main.1f437122.chunk.css",
+    "main.js": "/react_static_shopsite/static/js/main.d0109988.chunk.js",
+    "main.js.map": "/react_static_shopsite/static/js/main.d0109988.chunk.js.map",
+    "runtime-main.js": "/react_static_shopsite/static/js/runtime-main.ef3ae9a6.js",
+    "runtime-main.js.map": "/react_static_shopsite/static/js/runtime-main.ef3ae9a6.js.map",
+    "static/js/2.2e392761.chunk.js": "/react_static_shopsite/static/js/2.2e392761.chunk.js",
+    "static/js/2.2e392761.chunk.js.map": "/react_static_shopsite/static/js/2.2e392761.chunk.js.map",
+    "static/js/3.648f4236.chunk.js": "/react_static_shopsite/static/js/3.648f4236.chunk.js",
+    "static/js/3.648f4236.chunk.js.map": "/react_static_shopsite/static/js/3.648f4236.chunk.js.map",
+    "index.html": "/react_static_shopsite/index.html",
+    "static/css/main.1f437122.chunk.css.map": "/react_static_shopsite/static/css/main.1f437122.chunk.css.map",
+    "static/js/2.2e392761.chunk.js.LICENSE.txt": "/react_static_shopsite/static/js/2.2e392761.chunk.js.LICENSE.txt",
+    "static/media/HeroImage.e25f31ff.jpg": "/react_static_shopsite/static/media/HeroImage.e25f31ff.jpg",
+    "static/media/department.a6f8ee50.jpg": "/react_static_shopsite/static/media/department.a6f8ee50.jpg",
+    "static/media/dress.79c0b2b1.jpg": "/react_static_shopsite/static/media/dress.79c0b2b1.jpg",
+    "static/media/hoodie.1d289224.jpg": "/react_static_shopsite/static/media/hoodie.1d289224.jpg",
+    "static/media/jacket.3f64ccec.jpg": "/react_static_shopsite/static/media/jacket.3f64ccec.jpg",
+    "static/media/kids.17cdc3ed.png": "/react_static_shopsite/static/media/kids.17cdc3ed.png",
+    "static/media/men.bef6f265.png": "/react_static_shopsite/static/media/men.bef6f265.png",
+    "static/media/sports.aeae4205.png": "/react_static_shopsite/static/media/sports.aeae4205.png",
+    "static/media/women.a8563d1b.png": "/react_static_shopsite/static/media/women.a8563d1b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef3ae9a6.js",
+    "static/js/2.2e392761.chunk.js",
+    "static/css/main.1f437122.chunk.css",
+    "static/js/main.d0109988.chunk.js"
+  ]
+}
