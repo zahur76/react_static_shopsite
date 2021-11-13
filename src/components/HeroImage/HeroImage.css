@@ -28,8 +28,11 @@ img {
 .submit-button {
     background: rgb(0, 0, 0, 0.5);
     border-radius: 0;
-    border: none;
-        
+    border: none;        
+}
+
+.submit-button:hover {
+    background: rgba(75, 74, 74, 0.5);
 }
 
 .submit-col-1 {

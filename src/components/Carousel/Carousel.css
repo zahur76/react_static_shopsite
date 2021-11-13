@@ -78,6 +78,7 @@ p {
 
     p {       
         top: 30%;
+        font-size: 30px;
     }
 }
 
@@ -88,6 +89,10 @@ p {
     
     .carousel {
         width: 150px;
-    }
+    }    
+    
+    p {       
+        font-size: 24px;
+    }    
 }
 
