@@ -3,6 +3,7 @@ import NavBar from '../NavBar/NavBar.js'
 import HeroImage from '../HeroImage/HeroImage'
 import CarouselDeals from '../Carousel/Carousel.js';
 import Departments from '../Departments/Departments.js';
+import Footer from '../Footer/Footer.js'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <NavBar />
       <HeroImage />      
       <CarouselDeals />
-      <Departments />       
+      <Departments />
+      <Footer />       
     </div>
   );
 }
