@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import image from './HeroImage.jpg';
+import image from './heroImage.jpg';
 
 
 class HeroImage extends React.Component {

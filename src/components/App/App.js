@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <HeroImage />      
       <CarouselDeals />
-      <Departments />
+      <Departments />       
     </div>
   );
 }
