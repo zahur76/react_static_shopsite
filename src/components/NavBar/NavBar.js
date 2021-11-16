@@ -9,7 +9,7 @@ class NavBar extends React.Component {
         return (
             <Navbar collapseOnSelect expand="lg" className='custom-nav' variant="dark">
                 <Container>
-                    <Navbar.Brand className="logo" href="#home">Shop All Day</Navbar.Brand>
+                    <Navbar.Brand className="logo" href="#home">{this.props.title}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>

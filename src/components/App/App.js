@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer.js'
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar title="Shop All Day"/>
       <HeroImage />      
       <CarouselDeals />
       <Departments />
