@@ -55,7 +55,7 @@ img {
 
 @media screen and (max-width: 768px){
     .search-bar {        
-        bottom: 150px;
+        bottom: 100px;
     } 
     
     .submit-button {
@@ -82,7 +82,7 @@ img {
 
     .search-bar {
         position: relative;
-        bottom: 100px;
+        bottom: 75px;
     }        
 }
 
@@ -98,7 +98,7 @@ img {
 
     .search-bar {
         position: relative;
-        bottom: 100px;
+        bottom: 50px;
     }        
 }
 
