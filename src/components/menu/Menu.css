@@ -1,0 +1,16 @@
+.menu {    
+    font-weight: 500;   
+    margin: 0 auto;   
+}
+
+a.menu {
+    color: black;
+    width: 100%  !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid black !important;   
+}
+
+.menu.active {
+    color: gold !important;
+    border-bottom: 1px solid gold !important; 
+}
